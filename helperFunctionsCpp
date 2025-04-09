@@ -22,3 +22,15 @@ void print2dVector(vector<vector<int>> v)
     std::cout<<std::endl;
   }
 }
+
+// RETURN MIN OF TWO INTS
+int intMin(int a, int b){
+	if(a>b) return b;
+	return a;
+}
+
+// RETURN MAX OF TWO INTS
+int intMax(int a, int b){
+	if(a>b) return a;
+	return b;
+}
